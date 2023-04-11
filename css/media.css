@@ -1,6 +1,6 @@
-/*============== MOBILE ======= */
+/* == MOBILE == */
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 428px) {
   .container {
     width: 428px;
     /* margin-left: auto;
@@ -36,22 +36,9 @@
   .footer-form-submit {
     margin: 0 auto;
   }
-
-  /* .mobile-menu-link.current::after {
-    display: block;
-    content: '';
-    background-color: #404bbf;
-    width: 50%;
-    height: 4px;
-    border-radius: 2px;
-    position: relative;
-    left: 0;
-    bottom: 0;
-  } */
 }
 
-/* ======= IMAGES MOBILE === */
-/* Hero images mobile*/
+/* == IMAGES MOBILE == */
 @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
   screen and (min-resolution: 192dpi) and (max-width: 767px),
   screen and (min-resolution: 2dppx) and (max-width: 767px) {
@@ -64,9 +51,9 @@
   }
 }
 
-/*============== /MOBILE ================ */
+/* == /MOBILE == */
 
-/*============== TABLET ================= */
+/* == TABLET == */
 
 @media screen and (min-width: 768px) {
   .container {
@@ -115,7 +102,7 @@
     bottom: 0px;
   }
 
-  /*============== HERO tablet ================= */
+  /* == HERO tablet == */
 
   .hero {
     padding-bottom: 108px;
@@ -130,7 +117,7 @@
     font-size: 56px;
   }
 
-  /* ========== ABOUT tablet ============= */
+  /* == ABOUT tablet == */
 
   .thirdly-title {
     text-align: left;
@@ -157,7 +144,7 @@
     margin-bottom: 0px;
   }
 
-  /* ========== EMPLOYEES tablet ============= */
+  /* == EMPLOYEES tablet == */
 
   .section-team {
     padding-bottom: 104px;
@@ -173,7 +160,7 @@
     margin-bottom: 0;
   }
 
-  /* ========== CUSTOMERS tablet ============= */
+  /* == CUSTOMERS tablet == */
 
   .customers-list {
     gap: 72px 24px;
@@ -183,7 +170,7 @@
     max-width: 168px;
   }
 
-  /* ========== FOOTER tablet ============= */
+  /* == FOOTER tablet == */
 
   .footer-content-wrapper {
     padding-left: 108px;
@@ -209,7 +196,7 @@
     margin-bottom: 0;
   }
 
-  /* MODAL window tablet */
+  /* == MODAL window tablet == */
 
   .modal {
     width: 100%;
@@ -218,7 +205,7 @@
     overflow: auto;
   }
 
-  /* PORTFOLIO tablet */
+  /* == PORTFOLIO tablet == */
 
   .menu-portfolio {
     flex-wrap: nowrap;
@@ -241,21 +228,20 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1157px) {
   .portfolio-item:not(:last-child) {
     margin-bottom: 72px;
   }
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1157px) {
   .contact-link {
     font-size: 12px;
     line-height: 1.3;
   }
 }
 
-/* ======= IMAGES TABLET === */
-/* Hero images tablet*/
+/* == IMAGES TABLET == */
 @media screen and (min-width: 768px) {
   .hero {
     background-image: linear-gradient(
@@ -278,10 +264,8 @@
   }
 }
 
-/*============== /TABLET ============== */
-
-/*============== DESKTOP ===================== */
-@media screen and (min-width: 1200px) {
+/* == DESKTOP == */
+@media screen and (min-width: 1158px) {
   .container {
     width: 1158px;
   }
@@ -306,7 +290,7 @@
     margin-right: 40px;
   }
 
-  /* ========== HERO desktop ============= */
+  /* == HERO desktop == */
 
   .hero {
     padding-top: 188px;
@@ -317,7 +301,7 @@
     margin-bottom: 48px;
   }
 
-  /* ========== OFFER desktop ============= */
+  /* == OFFER desktop == */
 
   .offer {
     background-color: #ffffff;
@@ -333,7 +317,7 @@
     flex-wrap: wrap;
     gap: 24px;
   }
-  /* ========== ABOUT desktop ============= */
+  /* == ABOUT desktop == */
   .about-item {
     flex-basis: calc((100% - 72px) / 4);
   }
@@ -374,20 +358,20 @@
     background-image: url(../images/about/astronaut.svg);
   }
 
-  /* ========== EMPLOYEES desktop ============= */
+  /* == EMPLOYEES desktop == */
 
   .section-team {
     padding-top: 120px;
     padding-bottom: 120px;
   }
 
-  /* ========== CUSTOMERS desktop ============= */
+  /* == CUSTOMERS desktop == */
 
   .customers-list {
     gap: 24px;
   }
 
-  /* ========== FOOTER desktop ============= */
+  /* == FOOTER desktop == */
 
   .footer {
     padding-top: 100px;
@@ -403,7 +387,7 @@
     gap: 120px;
   }
 
-  /* PORTFOLIO desktop */
+  /* == PORTFOLIO desktop == */
 
   .menu-portfolio {
     padding-top: 96px;
@@ -419,7 +403,7 @@
   }
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1157px) {
   .offer {
     display: none;
   }
@@ -433,9 +417,8 @@
   }
 }
 
-/* ======= IMAGES DESCTOP === */
-/* Hero images */
-@media screen and (min-width: 1200px) {
+/* == IMAGES DESCTOP == */
+@media screen and (min-width: 1158px) {
   .hero {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -445,9 +428,9 @@
   }
 }
 
-@media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
-  screen and (min-resolution: 192dpi) and (min-width: 1200px),
-  screen and (min-resolution: 2dppx) and (min-width: 1200px) {
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1158px),
+  screen and (min-resolution: 192dpi) and (min-width: 1158px),
+  screen and (min-resolution: 2dppx) and (min-width: 1158px) {
   .hero {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -456,5 +439,3 @@
       url(../images/hero/hero-desktop-people-office@2x.jpg);
   }
 }
-
-/*============== //DESKTOP ======= */

@@ -3,8 +3,6 @@
 @media screen and (min-width: 428px) {
   .container {
     width: 428px;
-    /* margin-left: auto;
-    margin-right: auto; */
   }
 }
 
@@ -50,8 +48,6 @@
       url(../images/hero/hero-mobile-people-office@2x.jpg);
   }
 }
-
-/* == /MOBILE == */
 
 /* == TABLET == */
 
@@ -102,7 +98,7 @@
     bottom: 0px;
   }
 
-  /* == HERO tablet == */
+  /* == HERO tab == */
 
   .hero {
     padding-bottom: 108px;
@@ -117,7 +113,7 @@
     font-size: 56px;
   }
 
-  /* == ABOUT tablet == */
+  /* == ABOUT tab == */
 
   .thirdly-title {
     text-align: left;
@@ -144,7 +140,7 @@
     margin-bottom: 0px;
   }
 
-  /* == EMPLOYEES tablet == */
+  /* == EMPLOYEES tab == */
 
   .section-team {
     padding-bottom: 104px;
@@ -160,7 +156,7 @@
     margin-bottom: 0;
   }
 
-  /* == CUSTOMERS tablet == */
+  /* == CUSTOMERS tab == */
 
   .customers-list {
     gap: 72px 24px;
@@ -170,7 +166,7 @@
     max-width: 168px;
   }
 
-  /* == FOOTER tablet == */
+  /* == FOOTER tab == */
 
   .footer-content-wrapper {
     padding-left: 108px;
@@ -196,7 +192,7 @@
     margin-bottom: 0;
   }
 
-  /* == MODAL window tablet == */
+  /* == MODAL window tab == */
 
   .modal {
     width: 100%;
@@ -205,7 +201,7 @@
     overflow: auto;
   }
 
-  /* == PORTFOLIO tablet == */
+  /* == PORTFOLIO tab == */
 
   .menu-portfolio {
     flex-wrap: nowrap;

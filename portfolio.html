@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700;800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+    <style>
+      /* ... */
+    </style>
+  </head>
+  <body>
+    <!--Шапка сторінки-->
+    <header class="page-header">
+      <div class="container page-headr-container">
+        <nav class="page-nav">
+          <!--Логотип текстовий-->
+          <a class="logo link logo-header" href="index.html"
+            >WEB<span class="logo-textdark">STUDIO</span></a
+          >
+          <ul class="list menu">
+            <li class="menu-item">
+              <a class="link menu-link" href="./index.html">Studio</a>
+            </li>
+            <li class="menu-item">
+              <a class="link menu-link current" href="./portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li class="menu-item">
+              <a class="link menu-link" href="./index.html">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <button
+          type="button"
+          class="mobile-menu-open js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg class="mobile-menu-open_icon" width="32" height="22">
+            <use href="./images/icons.svg#icon-menu-burger"></use>
+          </svg>
+        </button>
+
+        <!--Contacts-->
+        <ul class="list contacts">
+          <li class="contact-item">
+            <a
+              class="link section-description contact-link mail"
+              href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="contact-item">
+            <a
+              class="link section-description contact-link phone"
+              href="tel:+11(000)111-11-11"
+              >+11(000)111-11-11</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <!-- MOBILE MENU -->
+      <div class="mobile-menu js-menu-container" id="mobile-menu">
+        <div class="container mobile-menu-container">
+          <div>
+            <button class="mobile-menu-close-btn js-close-menu">
+              <svg class="mobile-menu-close-icon" width="8" height="8">
+                <use href="./images/icons.svg#icon-close-modalsvg"></use>
+              </svg>
+            </button>
+            <nav>
+              <ul class="list mobile-menu-list">
+                <li class="mobile-menu-item">
+                  <a class="link mobile-menu-link" href="index.html">Studio</a>
+                </li>
+                <li class="mobile-menu-item">
+                  <a class="link mobile-menu-link" href="./portfolio.html"
+                    >Portfolio</a
+                  >
+                </li>
+                <li class="mobile-menu-item">
+                  <a class="link mobile-menu-link" href="index.html"
+                    >Contacts</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div>
+            <ul class="list mobile-contacts">
+              <li class="mobile-phone-item">
+                <a class="link mobile-phone-link" href="tel:+11(000)111-11-11"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li class="mobile-mail-item">
+                <a
+                  class="link mobile-mail-link"
+                  href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+
+            <ul class="mobile-soc-list list">
+              <li class="mobile-soc-item">
+                <a href="" class="mobile-soc-link link">
+                  <svg class="mobile-soc-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-instagramsvg"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mobile-soc-item">
+                <a href="" class="mobile-soc-link link">
+                  <svg class="mobile-soc-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-twittersvg"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mobile-soc-item">
+                <a href="" class="mobile-soc-link link">
+                  <svg class="mobile-soc-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-facebooksvg"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mobile-soc-item">
+                <a href="" class="mobile-soc-link link">
+                  <svg class="mobile-soc-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-linkedinsvg"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!--Buttons-->
+      <section class="section-portfolio">
+        <div class="container">
+          <!-- h1 прихований -->
+          <h1 class="visually-hidden">title</h1>
+          <ul class="list menu-portfolio">
+            <li class="menu-portfolio-item">
+              <button class="portfolio-btn" type="button">All</button>
+            </li>
+            <li class="menu-portfolio-item">
+              <button class="portfolio-btn" type="button">Web Site</button>
+            </li>
+            <li class="menu-portfolio-item">
+              <button class="portfolio-btn" type="button">App</button>
+            </li>
+            <li class="menu-portfolio-item">
+              <button class="portfolio-btn" type="button">Design</button>
+            </li>
+            <li class="menu-portfolio-item">
+              <button class="portfolio-btn" type="button">Marketing</button>
+            </li>
+          </ul>
+
+          <!------------------------PORTFOLIO----------------------------->
+
+          <ul class="list portfolio">
+            <li class="portfolio-item">
+              <a href="" class="portfolio-link link">
+                <div class="portfolio-list-img-wrapper">
+                  <img
+                    srcset="
+                      ./images/portfolio/phoneapplicationbankupp.jpg.jpg 1x,
+                      ./images/portfolio/phoneapplicationbankupp@2x.jpg  2x
+                    "
+                    src="./images/portfolio/phoneapplicationbankupp.jpg.jpg"
+                    alt="applicationbankapp"
+                    width="360"
+                    height="300"
+                  />
+                </div>
+                <div class="portfolio-menu-item">
+                  <h3 class="portfolio-menu-item-title">
+                    Banking App Interface Concept
+                  </h3>
+                  <p class="section-description">App</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="portfolio-item">
+              <a href="" class="portfolio-link link">
+                <div class="portfolio-list-img-wrapper">
+                  <img
+                    srcset="
+                      ./images/portfolio/qrkodonphone.jpg.jpg 1x,
+                      ./images/portfolio/qrkodonphone@2x.jpg  2x
+                    "
+                    src="./images/portfolio/qrkodonphone.jpg.jpg"
+                    alt="qrkodonphone"
+                    width="360"
+                    height="300"
+                  />
+                </div>
+                <div class="portfolio-menu-item">
+                  <h3 class="portfolio-menu-item-title">Cashless Payment</h3>
+                  <p class="section-description">Marketing</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="portfolio-item">
+              <a href="" class="portfolio-link link">
+                <div class="portfolio-list-img-wrapper">
+                  <img
+                    srcset="
+                      ./images/portfolio/retorntonormalcy.jpg.jpg 1x,
+                      ./images/portfolio/retorntonormalcy@2x.jpg  2x
+                    "
+                    src="./images/portfolio/retorntonormalcy.jpg.jpg"
+                    alt="retorntonormalcy"
+                    width="360"
+                    height="300"
+                  />
+                </div>
+                <div class="portfolio-menu-item">
+                  <h3 class="portfolio-menu-item-title">Meditaion App</h3>
+                  <p class="section-description">App</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="portfolio-item">
+              <a href="" class="portfolio-link link">
+                <div class="portfolio-list-img-wrapper">
+                  <img
+                    srcset="
+                      ./images/portfolio/driver.jpg.jpg 1x,
+                      ./images/portfolio/driver@2x.jpg  2x
+                    "
+                    src="./images/portfolio/driver.jpg.jpg"
+                    alt="driver"
+                    width="360"
+                    height="300"
+                  />
+                </div>
+                <div class="portfolio-menu-item">
+                  <h3 class="portfolio-menu-item-title">Taxi Service</h3>
+                  <p class="section-description">Marketing</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="portfolio-item">
+              <a href="" class="portfolio-link link">
+                <div class="portfolio-list-img-wrapper">
+                  <img
+                    srcset="
+                      ./images/portfolio/screenillustrations.jpg.jpg 1x,
+                      ./images/portfolio/screenillustrations@2x.jpg  2x
+                    "
+                    src="./images/portfolio/screenillustrations.jpg.jpg"
+                    alt="screenillustrations"
+                    width="360"
+                    height="300"
+                  />
+                </div>
+                <div class="portfolio-menu-item">
+                  <h3 class="portfolio-menu-item-title">
+                    Screen Illustrations
+                  </h3>
+                  <p class="section-description">Design</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="portfolio-item">
+              <a href="" class="portfolio-link link">
+                <div class="portfolio-list-img-wrapper">
+                  <img
+                    srcset="
+                      ./images/portfolio/girllistenmusic.jpg.jpg 1x,
+                      ./images/portfolio/girllistenmusic@2x.jpg  2x
+                    "
+                    src="./images/portfolio/girllistenmusic.jpg.jpg"
+                    alt="girllistenmusic"
+                    width="360"
+                    height="300"
+                  />
+                </div>
+                <div class="portfolio-menu-item">
+                  <h3 class="portfolio-menu-item-title">Online Courses</h3>
+                  <p class="section-description">Marketing</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <!--Footer-->
+    <footer class="footer">
+      <div class="container footer-content-wrapper">
+        <div class="footer-content-soc-wrapper">
+          <div class="footer-content">
+            <a class="logo link" href="index.html"
+              >WEB<span class="logo-textlight">STUDIO</span></a
+            >
+            <p class="footer-description">
+              Increase the flow of customers and sales for your business with
+              digital marketing & growth solutions.
+            </p>
+          </div>
+
+          <div class="list footer-soc-content">
+            <p class="footer-soc-text">Social media</p>
+            <ul class="footer-soc-list list">
+              <li class="footer-soc-item">
+                <a href="" class="footer-soc-link link">
+                  <svg class="footer-soc-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-instagramsvg"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-soc-item">
+                <a href="" class="footer-soc-link link">
+                  <svg class="footer-soc-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-twittersvg"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-soc-item">
+                <a href="" class="footer-soc-link link">
+                  <svg class="footer-soc-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-facebooksvg"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-soc-item">
+                <a href="" class="footer-soc-link link">
+                  <svg class="footer-soc-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-linkedinsvg"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-container-form">
+          <p class="footer-form-title">Subscribe</p>
+          <form class="footer-form">
+            <input
+              type="email"
+              name="user-email"
+              class="footer-form-input"
+              required
+              placeholder="E-mail"
+            />
+            <button type="submit" class="footer-form-submit">
+              Subscribe
+              <svg class="footer-form-button-icon" width="18" height="18">
+                <use href="./images/icons.svg#icon-icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </footer>
+    <script defer src="./js/mobile-menu.js"></script>
+  </body>
+</html>
